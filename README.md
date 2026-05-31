@@ -5,12 +5,11 @@
 **Project Title**: Retail Sales Analysis  
 **Database**: `sql_project_p1`
 
-## Objectives
+## Project Outcomes
 
-1. **Set up a retail sales database**: Create and populate a retail sales database with the provided sales data.
-2. **Data Cleaning**: Identify and remove any records with missing or null values.
-3. **Exploratory Data Analysis (EDA)**: Perform basic exploratory data analysis to understand the dataset.
-4. **Business Analysis**: Use SQL to answer specific business questions and derive insights from the sales data.
+Using SQL, I transformed raw transaction data into actionable business insights. The analysis helped identify top-performing product categories, high-value customers, seasonal sales patterns, and customer purchasing trends.
+
+The project also provided practical experience working with aggregations, filtering, window functions, Common Table Expressions (CTEs), date functions, and business-focused reporting. The resulting queries demonstrate how SQL can be used to support operational and strategic decision-making in a retail environment.
 
 ## Project Structure
 
@@ -185,16 +184,12 @@ from hourly_sales
 group by shift;
 ```
 
-## Findings
+Findings
 
-- **Customer Demographics**: The dataset includes customers from various age groups, with sales distributed across different categories such as Clothing and Beauty.
-- **High-Value Transactions**: Several transactions had a total sale amount greater than 1000, indicating premium purchases.
-- **Sales Trends**: Monthly analysis shows variations in sales, helping identify peak seasons.
-- **Customer Insights**: The analysis identifies the top-spending customers and the most popular product categories.
+The analysis revealed several important business patterns within the retail sales data.
 
-## Reports
+Customer purchasing behavior varied across product categories, age groups, and genders. Revenue was concentrated among a relatively small group of high-value customers, highlighting opportunities for targeted retention and loyalty initiatives.
 
-- **Sales Summary**: A detailed report summarizing total sales, customer demographics, and category performance.
-- **Trend Analysis**: Insights into sales trends across different months and shifts.
-- **Customer Insights**: Reports on top customers and unique customer counts per category
-  
+Sales activity also fluctuated across different months, allowing seasonal demand patterns to be identified. Category-level analysis showed which product groups contributed most to overall revenue, while transaction-level analysis highlighted premium purchases and customer spending behavior.
+
+The shift analysis provided additional visibility into when customer activity was highest throughout the day, offering insights that could support staffing, promotions, and operational planning.
