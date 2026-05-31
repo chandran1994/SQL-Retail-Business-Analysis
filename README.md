@@ -184,12 +184,12 @@ from hourly_sales
 group by shift;
 ```
 
-Findings
+## Findings
 
-The analysis revealed several important business patterns within the retail sales data.
+**The analysis revealed several important business patterns within the retail sales data.**
 
-Customer purchasing behavior varied across product categories, age groups, and genders. Revenue was concentrated among a relatively small group of high-value customers, highlighting opportunities for targeted retention and loyalty initiatives.
+**Customer purchasing behavior varied across product categories, age groups, and genders. Revenue was concentrated among a relatively small group of high-value customers, highlighting opportunities for targeted retention and loyalty initiatives.**
 
-Sales activity also fluctuated across different months, allowing seasonal demand patterns to be identified. Category-level analysis showed which product groups contributed most to overall revenue, while transaction-level analysis highlighted premium purchases and customer spending behavior.
+**Sales activity also fluctuated across different months, allowing seasonal demand patterns to be identified. Category-level analysis showed which product groups contributed most to overall revenue, while transaction-level analysis highlighted premium purchases and customer spending behavior.**
 
-The shift analysis provided additional visibility into when customer activity was highest throughout the day, offering insights that could support staffing, promotions, and operational planning.
+**The shift analysis provided additional visibility into when customer activity was highest throughout the day, offering insights that could support staffing, promotions, and operational planning.**
