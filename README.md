@@ -196,5 +196,5 @@ group by shift;
 
 - **Sales Summary**: A detailed report summarizing total sales, customer demographics, and category performance.
 - **Trend Analysis**: Insights into sales trends across different months and shifts.
-- **Customer Insights**: Reports on top customers and unique customer counts per category.
+- **Customer Insights**: Reports on top customers and unique customer counts per category
   
